@@ -1,0 +1,14 @@
+# 编译产物与本地状态：绝不能被提交
+__pycache__/
+*.pyc
+*.pyo
+
+# 本机配置与凭据（每台机器自己生成，进库就是泄漏）
+.env
+credentials.json
+*.local
+
+# 编辑器/系统垃圾
+.DS_Store
+.idea/
+.vscode/
