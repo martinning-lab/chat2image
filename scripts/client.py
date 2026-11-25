@@ -35,7 +35,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-VERSION = "0.2.9"
+VERSION = "0.2.10"
 NAME = "chat2image"
 # 本文件在 <包>/scripts/ 下，包根是上一级。.env、version.json 只从包根读。
 # （代码审查 P0-1：以前指向 scripts/，开发机跑得通、装到用户机上必然报 NO_BASE_URL）
